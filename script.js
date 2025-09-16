@@ -46,7 +46,7 @@ function markTaskComplete(button) {
 
 function removeTask(button) {
   const rowIndex = button.parentElement.parentElement.rowIndex;
-  tasks.splice(rowIndex - 1, 1); // adjust for header if you add one later
+  tasks.splice(rowIndex - 1, 1); 
   render();
 }
 
